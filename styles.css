@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+}
+h1,h2{
+    text-align: center;
+    margin: 0;
+    
+}
+h1{
+    padding-top: 20px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 500;
+}
+
+svg{
+    margin: 0 180px;
+}
+
+.dot{
+    stroke: black;
+    stroke-width: 1px;
+}
+
+#tooltip{
+    background-color: rgba(129, 183, 238, 0.822);
+    position: absolute;
+    border-radius: 5px;
+}
+
+#tooltip.hidden{
+    display: none;
+}
+
+#legend{
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
+}
